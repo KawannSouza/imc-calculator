@@ -42,3 +42,9 @@
     padding: 0.7rem;
     background: #04476e;
 }
+
+@media screen and (max-width: 480px){
+    .modal {
+        width: 350px;
+    }
+}

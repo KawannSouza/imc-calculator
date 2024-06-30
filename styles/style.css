@@ -98,3 +98,18 @@ body {
         margin: auto;
     }
 }
+
+@media screen and (max-width: 767px){
+    .image-area {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1090px){
+    .main {
+        gap: 4rem;
+    }
+    .gym-image {
+        width: 95%;
+    }
+}

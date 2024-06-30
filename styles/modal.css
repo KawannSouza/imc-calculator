@@ -45,7 +45,24 @@
 
 @media screen and (max-width: 480px){
     .modal {
-        width: 380px;
-        height: 100%;
+        max-width: 250px;
+    }
+    .info-area {
+        font-size: 8pt;
+    }
+    .btn-close {
+        font-size: 9pt;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .modal {
+        max-width: 450px;
+    }
+    .info-area {
+        font-size: 9pt;
+    }
+    .btn-close {
+        font-size: 9pt;
     }
 }

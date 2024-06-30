@@ -88,7 +88,7 @@ body {
 
 @media screen and (max-width: 480px) {
     body {
-        padding: 5;
+        padding: 5rem;
     }
     .image-area {
         display: none;
